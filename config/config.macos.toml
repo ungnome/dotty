@@ -3,6 +3,3 @@
 "brew:bash-completion@2" = "latest"
 "brew-cask:firefox" = "latest"
 "brew-caks:firefox@developer-edition" = "latest"
-
-[tools]
-d2 = "latest"
