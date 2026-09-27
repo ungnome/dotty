@@ -1,7 +1,7 @@
 [settings]
 dotfiles.root = "~/.mise-dotfiles"
-env_conf_d = true
-auto_env = true
+# env_conf_d = true
+# auto_env = true
 
 [bootstrap.mise_shell_activate]
 bashrc = "activate"
