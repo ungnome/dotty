@@ -15,4 +15,5 @@ builtin = "history-watch"
 [tools]
 go = "1.27.1"
 neovim = "0.12.5"
+node = "24"
 tree-sitter = "latest"
