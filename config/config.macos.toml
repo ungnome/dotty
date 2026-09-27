@@ -1,6 +1,7 @@
 [bootstrap.packages]
 "brew:bash" = "latest"
 "brew:bash-completion@2" = "latest"
+"brew-cask:firefox" = "latest"
 
 [tools]
 jq = "latest"
