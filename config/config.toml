@@ -11,6 +11,7 @@ builtin = "history-watch"
 "~/.bash_profile" = { mode = "track" }
 "~/.bashrc" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
+"~/.config/nvim" = { mode = "track" }
 
 [tools]
 aws-vault = "7"
