@@ -13,6 +13,6 @@ builtin = "history-watch"
 "~/.config/mise" = { mode = "track" }
 
 [tools]
-go = "latest"
+go = "1.27.1"
 neovim = "0.12.5"
 tree-sitter = "latest"
