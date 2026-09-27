@@ -14,7 +14,6 @@ builtin = "history-watch"
 "~/.config/nvim" = { mode = "track" }
 
 [tools]
-aws-vault = "7"
 go = "1.27"
 neovim = "0.12.5"
 node = "24"
