@@ -14,6 +14,7 @@ builtin = "history-watch"
 "~/.config/nvim" = { mode = "track" }
 
 [tools]
+d2 = "latest"
 go = "1.27"
 neovim = "0.12.5"
 node = "24"
