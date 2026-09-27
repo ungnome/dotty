@@ -5,6 +5,4 @@
 "brew-caks:firefox@developer-edition" = "latest"
 
 [tools]
-ripgrep = "latest"
-bat = "latest"
 d2 = "latest"
