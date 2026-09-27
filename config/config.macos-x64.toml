@@ -1,13 +1,3 @@
 [bootstrap.user]
 login_shell = "/usr/local/bin/bash"
 
-[bootstrap.packages]
-"brew:bash" = "latest"
-"brew:bash-completion@2" = "latest"
-
-[tools]
-jq = "latest"
-yq = "latest"
-ripgrep = "latest"
-bat = "latest"
-d2 = "latest"
