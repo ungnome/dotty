@@ -23,7 +23,10 @@
       "path": "home/.config/ghostty",
       "autosave": true,
       "encrypt": false,
-      "variants": []
+      "variants": [],
+      "exclude": [
+        "config.local"
+      ]
     },
     {
       "path": "home/.config/nvim",
