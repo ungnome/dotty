@@ -9,6 +9,7 @@ builtin = "history-watch"
 
 [dotfiles]
 "~/.bash_profile" = { mode = "track" }
+"~/.bashrc" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
 
 [tools]
