@@ -1,0 +1,8 @@
+[settings]
+dotfiles.root = "~/.mise-dotfiles"
+
+[bootstrap.mise_shell_activate]
+bashrc = "activate"
+
+[dotfiles]
+"~/.config/mise" = { mode = "track" }
