@@ -1,0 +1,16 @@
+font-family = "Hack Nerd Font Mono"
+font-thicken = true
+
+theme = light:Catppuccin Latte,dark:Catppuccin Mocha
+
+window-width = 145
+window-height = 50
+window-padding-x = 10
+
+macos-option-as-alt = true
+adjust-cursor-thickness = 3
+split-divider-color = #585b70
+
+# machine specific tweaks
+config-file = ?./config.local
+
