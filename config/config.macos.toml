@@ -2,6 +2,7 @@
 "brew:bash" = "latest"
 "brew:bash-completion@2" = "latest"
 "brew-cask:firefox" = "latest"
+"brew-caks:firefox@developer-edition" = "latest"
 
 [tools]
 jq = "latest"
