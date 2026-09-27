@@ -4,5 +4,8 @@ dotfiles.root = "~/.mise-dotfiles"
 [bootstrap.mise_shell_activate]
 bashrc = "activate"
 
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
 [dotfiles]
 "~/.config/mise" = { mode = "track" }
