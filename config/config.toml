@@ -8,4 +8,5 @@ bashrc = "activate"
 builtin = "history-watch"
 
 [dotfiles]
+"~/.bash_profile" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
