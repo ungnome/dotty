@@ -6,7 +6,7 @@ require("catppuccin").setup({
     highlight_overrides = {
         mocha = function(mocha)
             return {
-                Normal = { fg = mocha.flamingo },
+                Normal = { fg = mocha.flamingo, bg = mocha.peach },
             }
         end,
     },
