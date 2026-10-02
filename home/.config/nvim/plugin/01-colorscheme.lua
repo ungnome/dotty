@@ -5,7 +5,7 @@ vim.pack.add({
 require("catppuccin").setup({
     dim_inactive = {
         enabled = true,
-        shade = "light",
+        shade = "dark",
         percentage = 0.25,
     },
     highlight_overrides = {
