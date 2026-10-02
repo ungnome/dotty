@@ -6,7 +6,7 @@ require("catppuccin").setup({
     highlight_overrides = {
         latte = function(latte)
             return {
-                StatusLine = { fg = latte.text, bg = latte.yellow },
+                StatusLine = { fg = latte.text, bg = latte.overlay2 },
             }
         end,
         mocha = function(mocha)
