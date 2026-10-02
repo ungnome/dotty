@@ -3,13 +3,13 @@ vim.pack.add({
 })
 
 require("catppuccin").setup({
-    highlights_overrides = {
-        mocha = function(colors)
+    highlight_overrides = {
+        mocha = function(mocha)
             return {
-                Normal = { bg = colors.mantle}
+                Comment = { fg = mocha.flamingo },
             }
-        end
-    }
+        end,
+    },
 })
 
 vim.cmd.colorscheme("catppuccin")
