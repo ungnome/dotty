@@ -3,12 +3,14 @@ vim.pack.add({
 })
 
 require("catppuccin").setup({
+    dim_inactive = {
+        percentage = 0.25
+    },
     highlight_overrides = {
         mocha = function(mocha)
             return {
                 Normal = { fg = mocha.text, bg = mocha.mantle },
                 StatusLine = { fg = mocha.text, bg = mocha.mantle },
-                Dimmed = { fg = mocha.rosewater },
             }
         end,
     },
