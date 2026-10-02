@@ -6,13 +6,13 @@ require("catppuccin").setup({
     highlight_overrides = {
         latte = function(latte)
             return {
-                StatusLine = { fg = latte.text, bg = latte.base },
+                StatusLine = { fg = latte.text, bg = latte.yellow },
             }
         end,
         mocha = function(mocha)
             return {
                 Normal = { fg = mocha.text, bg = mocha.mantle },
-                StatusLine = { fg = mocha.text, bg = mocha.mantle },
+                StatusLine = { fg = mocha.text, bg = mocha.yellow },
             }
         end,
     },
