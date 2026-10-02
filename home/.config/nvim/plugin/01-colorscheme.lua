@@ -4,10 +4,24 @@ vim.pack.add({
 
 require("catppuccin").setup({
     -- dim_inactive = {
-    --     enabled = true, -- dims the background color of inactive window
-    --     shade = "dark",
-    --     percentage = 0.25, -- percentage of the shade to apply to the inactive window
+    enabled = true, -- dims the background color of inactive window
+    shade = "dark",
+    percentage = 0.25, -- percentage of the shade to apply to the inactive window
     -- },
+    dim_inactive = function()
+        local s = ""
+        if vim.o.background == "dark" then
+            s = "light"
+        else
+            s = "dark"
+        end
+
+        return {
+            enabled = true, -- dims the background color of inactive window
+            shade = s,
+            percentage = 0.25, -- percentage of the shade to apply to the inactive window
+        }
+    end,
     highlight_overrides = {
         latte = function(latte)
             return {
