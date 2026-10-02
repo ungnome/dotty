@@ -6,7 +6,7 @@ require("catppuccin").setup({
     dim_inactive = {
         enabled = true,
         shade = "dark",
-        percentage = 0.50,
+        percentage = 0.75,
     },
     highlight_overrides = {
         mocha = function(mocha)
