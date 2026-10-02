@@ -5,12 +5,9 @@ vim.pack.add({
 require("catppuccin").setup({
     color_overrides = {
         mocha = {
-            bg = "#181825"
-        }
-    }
+            background = "#181825",
+        },
+    },
 })
 
-
 vim.cmd.colorscheme("catppuccin")
-
-
