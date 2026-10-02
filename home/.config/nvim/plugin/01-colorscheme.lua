@@ -4,11 +4,9 @@ vim.pack.add({
 
 require("catppuccin").setup({
     color_overrides = {
-        mocha = function(mocha)
-            return {
-                base = mocha.mantle,
-            }
-        end,
+        mocha = {
+            base = "#181825", -- set base to mantle
+        },
     },
 })
 
