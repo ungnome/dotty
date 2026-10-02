@@ -19,7 +19,7 @@ require("catppuccin").setup({
     -- end,
     dim_inacive = {
         enabed = true,
-        shade = "light",
+        shade = "dark",
         percentage = 0.25,
     },
     highlight_overrides = {
