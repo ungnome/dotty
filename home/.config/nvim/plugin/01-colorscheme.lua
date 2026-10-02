@@ -4,7 +4,8 @@ vim.pack.add({
 
 require("catppuccin").setup({
     dim_inactive = {
-        percentage = 0.25
+        shade = "light",
+        percentage = 0.25,
     },
     highlight_overrides = {
         mocha = function(mocha)
