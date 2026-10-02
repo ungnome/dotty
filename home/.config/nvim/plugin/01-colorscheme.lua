@@ -8,8 +8,10 @@ require("catppuccin").setup({
             return {
                 Normal = { fg = mocha.text, bg = mocha.mantle },
                 StatusLine = { fg = mocha.mantle, bg = mocha.mauve },
+                Dimmed = { fg = mocha.base }
             }
         end,
+
     },
 })
 
