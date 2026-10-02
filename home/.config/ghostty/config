@@ -2,7 +2,7 @@ font-family = "Hack Nerd Font Mono"
 font-thicken = true
 
 # theme = light:Catppuccin Latte,dark:Catppuccin Mocha
-theme = dark:catppuccin-mocha.conf,light:catppuccin-latte
+theme = dark:catppuccin-mocha.conf,light:catppuccin-latte.conf
 
 window-width = 145
 window-height = 50
