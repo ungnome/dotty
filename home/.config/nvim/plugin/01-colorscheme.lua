@@ -9,6 +9,11 @@ require("catppuccin").setup({
         percentage = 0.25, -- percentage of the shade to apply to the inactive window
     },
     highlight_overrides = {
+        latte = function(latte)
+            return {
+                Normal = { bg = latte.base },
+            }
+        end,
         mocha = function(mocha)
             return {
                 Normal = { fg = mocha.text, bg = mocha.mantle },
