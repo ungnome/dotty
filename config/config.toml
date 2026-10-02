@@ -10,9 +10,10 @@ builtin = "history-watch"
 [dotfiles]
 "~/.bash_profile" = { mode = "track" }
 "~/.bashrc" = { mode = "track" }
+"~/.config/bat" = { mode = "track" }
+"~/.config/ghostty" = { mode = "track", exclude = ["config.local"] }
 "~/.config/mise" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
-"~/.config/ghostty" = { mode = "track", exclude = ["config.local"] }
 
 [tools]
 d2 = "latest"
