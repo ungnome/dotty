@@ -7,7 +7,7 @@ require("catppuccin").setup({
         mocha = function(mocha)
             return {
                 Normal = { fg = mocha.text, bg = mocha.mantle },
-                StatusLine = { fg = mocha.text, bg = mocha.red },
+                StatusLine = { fg = mocha.mantle, bg = mocha.mauve },
             }
         end,
     },
