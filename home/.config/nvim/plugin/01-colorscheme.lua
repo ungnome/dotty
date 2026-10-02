@@ -11,7 +11,7 @@ require("catppuccin").setup({
     highlight_overrides = {
         latte = function(latte)
             return {
-                Normal = { bg = latte.base },
+                StatusLine = { fg = latte.text, bg = latte.base },
             }
         end,
         mocha = function(mocha)
