@@ -18,7 +18,7 @@ opt.expandtab = true
 
 -- cursor and position indicators
 opt.cursorline = true
-opt.colorcolumn = "100"
+opt.colorcolumn = "80"
 opt.mouse = "a"
 opt.number = true
 opt.relativenumber = true
