@@ -6,7 +6,7 @@ require("catppuccin").setup({
     dim_inactive = {
         enabled = true, -- dims the background color of inactive window
         shade = "dark",
-        percentage = 0.50, -- percentage of the shade to apply to the inactive window
+        percentage = 0.75, -- percentage of the shade to apply to the inactive window
     },
     highlight_overrides = {
         latte = function(latte)
