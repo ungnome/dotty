@@ -6,7 +6,7 @@ require("catppuccin").setup({
     color_overrides = {
         mocha = {
             Normal = {
-                bg = "mantle",
+                bg = "#181825",
             },
         },
     },
