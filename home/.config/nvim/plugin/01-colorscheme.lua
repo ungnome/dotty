@@ -19,6 +19,7 @@ require("catppuccin").setup({
     -- end,
     dim_inacive = {
         enabed = true,
+        percentage = 0.25,
     },
     highlight_overrides = {
         latte = function(latte)
