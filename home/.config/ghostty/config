@@ -1,4 +1,4 @@
-font-family = "Hack Nerd Font Mono"
+font-family = "DepartureMono Nerd Font Mono"
 font-thicken = true
 
 theme = dark:catppuccin-mocha.conf,light:catppuccin-latte.conf
